@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ScrollEventModule } from 'ngx-scroll-event';
+
 @NgModule({
   declarations: [
     AppComponent,

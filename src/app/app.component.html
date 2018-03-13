@@ -59,7 +59,7 @@
 </section>
 <section class="bgc-blue-grey-100" tdMediaToggle="gt-xs" [mediaClasses]="['pad-top-xl', 'pad-bottom-xl']" id="Terminfahrt">
   <h2 class="mat-display-1 text-upper text-center push-bottom">Current Team Openings</h2>
-  <div  layout-gt-xs="row" layout-align-gt-xs="center center">
+  <div  layout-gt-xs="row" layout-align-gt-xs="center center" [@scrollAnimation]="state">
     <div layout-gt-xs="row" flex-gt-xs="90" layout-margin>
       <div flex-gt-xs="50">
         <mat-card>
@@ -83,7 +83,7 @@
           </mat-card-actions>
         </mat-card>
       </div>
-      <div flex-gt-xs="50">
+      <div flex-gt-xs="50" >
         <mat-card>
           <mat-toolbar color="accent" class="bgc-teal-A700 push-bottom">
             <span class="text-upper">Quality</span>
